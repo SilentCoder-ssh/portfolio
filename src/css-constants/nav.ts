@@ -10,8 +10,8 @@ export const navCSS = {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    borderBottomLeftRadius: "10px",
-    borderBottomRightRadius: "10px",
+    // borderBottomLeftRadius: "10px",
+    // borderBottomRightRadius: "10px",
 
     maskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
     WebkitMaskImage: "linear-gradient(to bottom, black 65%, transparent 100%)",
