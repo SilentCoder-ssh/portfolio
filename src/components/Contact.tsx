@@ -1,7 +1,7 @@
 function Contact() {
     return(
         <>
-            <p>Je suis dans la page contact</p>
+            <p>Je suis dans contact</p>
         </>
     )
 }

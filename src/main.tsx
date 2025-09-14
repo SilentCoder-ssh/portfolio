@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import "./index.css";
 import { GridOverlayApp } from "./components/Grid/Grid-Overlay-App";
-import Nav from "./components/Nav";
 
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
@@ -36,7 +35,7 @@ if (!rootElement.innerHTML) {
         })}
       >
         <GridOverlayApp />
-        <Nav />
+        
         <RouterProvider router={router} />
       </div>
     </StrictMode>
