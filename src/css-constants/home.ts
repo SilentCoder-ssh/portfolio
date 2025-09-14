@@ -1,0 +1,88 @@
+import { css } from "../../styled-system/css";
+
+export const homeCSS = {
+  container: css({
+    height: "641px",
+    width: "auto",
+    backgroundColor: "bg",
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+  }),
+  presentationContainer: css({
+    backgroundColor: "transparent",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    width: "100%",
+    height:"100%"
+
+  }),
+  sceneContainer: css({
+    backgroundColor: "transparent",
+    height: "auto",
+    position: "relative"
+  }),
+  presentationTextContainer: css({
+    minHeight: "300px",
+    width: "676px",
+    backgroundColor: "transparent",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    flexDirection: "column",
+  }),
+  imgContainer: css({
+    height: "200px",
+    width: "325px",
+    backgroundColor: "transparent",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  }),
+  img: css({
+    height: "300px",
+    width: "300px",
+    borderRadius:"20px",
+    animation: "shadow-animation"
+  }),
+  video: css({
+    height: "300px",
+    width: "100%",
+    borderRadius:"20px",
+  }),
+   h1: css({
+    backgroundColor: "transparent",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "676px",
+    height: "74px",
+    fontSize: "96px",
+    fontFamily: "{fonts.secondary}",
+    fontWeight: "600",
+    fontStyle: "italic",
+    textIndent: "17px",
+    letterSpacing: "15.5px"
+
+  }),
+  p: css({
+    backgroundColor: "transparent",
+    height: "100%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "17px",
+    textIndent: "0px",
+    letterSpacing: "0.5px",
+    wordSpacing: "0.3px",
+
+  }),
+  scene: css({
+    height:"275px",
+    width:"100%",
+    borderTopLeftRadius: "10px",
+    borderTopRightRadius: "10px",
+    
+  })
+};
