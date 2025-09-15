@@ -6,7 +6,7 @@ function Home() {
       <div className={homeCSS.presentationContainer}>
         <div className={homeCSS.imgContainer}>
           <video
-            src="/video/earth-orange_alpha.webm"
+            src="/video/earth-violet_alpha.webm"
             className={homeCSS.video}
             autoPlay
             loop
