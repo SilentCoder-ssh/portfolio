@@ -1,8 +1,8 @@
-import { css } from "../../styled-system/css";
+import { css } from "../../../styled-system/css";
 
 export const homeCSS = {
   container: css({
-    height: "641px",
+    height: "100%",
     width: "auto",
     backgroundColor: "bg",
     display: "flex",
@@ -15,13 +15,12 @@ export const homeCSS = {
     alignItems: "center",
     justifyContent: "space-between",
     width: "100%",
-    height:"100%"
-
+    height: "100%",
   }),
   sceneContainer: css({
     backgroundColor: "transparent",
     height: "auto",
-    position: "relative"
+    position: "relative",
   }),
   presentationTextContainer: css({
     minHeight: "300px",
@@ -43,15 +42,15 @@ export const homeCSS = {
   img: css({
     height: "300px",
     width: "300px",
-    borderRadius:"20px",
-    animation: "shadow-animation"
+    borderRadius: "20px",
+    animation: "shadow-animation",
   }),
   video: css({
     height: "300px",
     width: "100%",
-    borderRadius:"20px",
+    borderRadius: "20px",
   }),
-   h1: css({
+  h1: css({
     backgroundColor: "transparent",
     display: "flex",
     alignItems: "center",
@@ -63,8 +62,7 @@ export const homeCSS = {
     fontWeight: "600",
     fontStyle: "italic",
     textIndent: "17px",
-    letterSpacing: "15.5px"
-
+    letterSpacing: "15.5px",
   }),
   p: css({
     backgroundColor: "transparent",
@@ -76,13 +74,13 @@ export const homeCSS = {
     textIndent: "0px",
     letterSpacing: "0.5px",
     wordSpacing: "0.3px",
-
   }),
   scene: css({
-    height:"275px",
-    width:"100%",
-    borderTopLeftRadius: "10px",
-    borderTopRightRadius: "10px",
-    
-  })
+    height: "275px",
+    width: "100%",
+    // borderTopLeftRadius: "10px",
+    // borderTopRightRadius: "10px",
+    position: "static",
+    backgroundColor: "grey",
+  }),
 };

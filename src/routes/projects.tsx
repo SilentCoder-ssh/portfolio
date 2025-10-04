@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import Projects from '../components/Projects'
+import Projects from '../components/pages/Projects'
 
 export const Route = createFileRoute('/projects')({
   component: RouteComponent,

@@ -1,6 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { navCSS } from "../css-constants/nav";
-
+import { navCSS } from "../styles/css-constants/nav";
 
 function Nav() {
   return (

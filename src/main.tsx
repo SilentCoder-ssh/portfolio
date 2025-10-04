@@ -1,12 +1,14 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
+import "fullpage.js/dist/fullpage.css";
 import "./index.css";
-import { GridOverlayApp } from "./components/Grid/Grid-Overlay-App";
+import { GridOverlayApp } from "./components/grid/Grid-Overlay-App";
+import { css } from "../styled-system/css";
+
 
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
-import { css } from "../styled-system/css";
 
 
 // Create a new router instance

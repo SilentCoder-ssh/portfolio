@@ -1,6 +1,6 @@
-import { homeCSS } from "../css-constants/home";
+import { homeCSS } from "../../styles/css-constants/home";
 
-function Home() {
+function HomeUn() {
   return (
     <section className={homeCSS.container}>
       <div className={homeCSS.presentationContainer}>
@@ -12,6 +12,7 @@ function Home() {
             loop
             muted
             playsInline
+            data-replay
           />
         </div>
         <div className={homeCSS.presentationTextContainer}>
@@ -41,15 +42,17 @@ function Home() {
             loop
             muted
             playsInline
+            data-replay
           />
         </div>
       </div>
       <div className={homeCSS.sceneContainer}>
         <p>SCENE ARAIGNEE BLENDER ↓↓↓</p>
         <img src="/img/img3.jpg" alt="img-test-3" className={homeCSS.scene} />
+        {/* <canvas className={homeCSS.scene}></canvas> */}
       </div>
     </section>
   );
 }
 
-export default Home
+export default HomeUn;

@@ -6,8 +6,8 @@
 }
 
 body {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 80px !important;
+  padding-right: 80px !important;
   background-color: #0D0D0D;
 }
 
